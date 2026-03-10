@@ -8,6 +8,8 @@ public class WebProjectSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WebProjectSpringBootApplication.class, args);
+		System.out.println("hello 2");
+		System.out.println("hello 4");
 	}
 
 }
