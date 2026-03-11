@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+
+// Stop it by commenting @Component Annotation
+//@Component
 public class CourseJpaCommandLineRunner implements CommandLineRunner {
     @Autowired
     private CourseJpaRepository repository;
