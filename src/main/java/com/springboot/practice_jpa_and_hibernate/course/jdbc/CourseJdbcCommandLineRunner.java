@@ -5,7 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+// Remove Component to ensure only one CLR is active
+//@Component
 public class CourseJdbcCommandLineRunner implements CommandLineRunner {
     @Autowired
     private CourseJdbcRepository repository;

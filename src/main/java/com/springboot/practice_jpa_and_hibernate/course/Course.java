@@ -1,8 +1,20 @@
 package com.springboot.practice_jpa_and_hibernate.course;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+// @Entity(name = "Course_details")     // For different table and class names
+@Entity // if SQL Table name and Class Name are same
 public class Course {
+
+    @Id
     private long id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "author")
     private String author;
     // Generate constructor, getters and toString
 
